@@ -1,0 +1,3 @@
+[02-Jun-2015 22:46:47 UTC] PHP Fatal error:  Call to undefined function dateadd() in /home/mercerdata/public_html/managerreport_new.php on line 133
+[27-Nov-2015 01:28:35 UTC] PHP Fatal error:  Class 'Mobile_Detect' not found in /home/mercerdata/public_html/mtrain.php on line 4
+[10-Feb-2016 22:26:29 UTC] PHP Fatal error:  Class 'Mobile_Detect' not found in /home/mercerdata/public_html/mtrain.php on line 4
