@@ -1,0 +1,16 @@
+input.submit {
+	width: 3cm; height:1cm;
+}
+body {
+	background-color:#eff2f1;
+}
+
+#mercer {
+	position:absolute;
+	left:0;
+	top:0;
+}
+ul {
+	color: red;
+	padding-left:0;
+}

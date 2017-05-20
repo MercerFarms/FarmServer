@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="Pesticide_Application.css"/>
+<head>
+<title> Pesticide Application </title>
+</head>
+<body>
+<center>
+<b> <font size="+3"> <FONT FACE="arial"> Pesticide Application </font> </font> </b> <br>
+<form>
+<center>
+ Reference Number: </br> <input type="number" name="ref_num"/> </br>
+ </br>
+ Location of Area to be Treated: </br> <input type="text" name="location_treated"/> </br>
+ </br>
+ Complete Product Name of Pesticide: </br> <input type:="text" name="Pesticide_name"/> </br>
+ <br>
+ EPA Registration Number: <br> <input type:="text" name="epa_registration"/> <br>
+ <br>
+ Active Ingredient: <br> <input type="text" name="ingredient"/> <br>
+ <br>
+ Application: <br>
+ Date <input type="date" name="date_applied"/> Time <input type="time" name="time_applied" placeholder"hrs:mins"/> <br>
+ <br>
+ Restricted Entry Interval (Hours): <br> <input type="number" name:"Entry_interval"/>
+ <br> <br>
+ Do Not Enter Treated Area Until <br>
+ Date <input type="date" name="allowed_date"/> Time <input type="time" name="allowed_time"/> <br> <br>
+ <b> OPTIONAL INFORMATION </b> <br> 
+ Other Specific Requirements: <br>
+ <textarea rows="5" cols="50" name="other_requirements">
+ </textarea> <br>
+ Notification: <br>
+ <input type="checkbox" name="Oral" value="Oral"/> Oral
+ <input type="checkbox" name="Posting" value="Posting" checked=true/> Posting <br> <br>
+ <input type="submit" name="submit" value="Submit" class="submit"/>
+ <img src="mercer.png" height="175" width="175" id="mercer"/>
+</form>
+<ul>
+<li> Post information before the pesticide is applied. If not applied as scheduled, make the correction before the application takes place, or as soon as practicable thereafter. </li>
+<li> Display information for 30 days after the Restricted-Entry Interval (for soil fumigants, Entry Restricted Period) ends. </li>
+<li> Post information at a central location with unrestricted access where workers or handlers are likely to congregate or pass by and where it can be readily seen and read. </li>
+</ui>
+</body>
+</html>
